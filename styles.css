@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 190, 190);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 40px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgb(17, 90, 17);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 40px;
+    width: 100%;
+    font-size: 24px;
+}
+
+
+table td {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
